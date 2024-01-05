@@ -28,6 +28,7 @@ const indexRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/",
   component: Index,
+  loader: Index.loader,
 });
 
 const shiftsRoute = new Route({
